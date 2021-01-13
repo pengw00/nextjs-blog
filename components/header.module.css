@@ -1,0 +1,17 @@
+.header {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 1rem;
+	max-width: 1024px;
+	text-align: center;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navItem {
+	margin: 5px;
+}

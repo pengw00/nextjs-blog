@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import NavBar from '../components/header';
 
 import Link from 'next/link';
 
@@ -12,6 +13,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+        <NavBar />
         <h1 className={styles.title}>
           Welcome to <Link href="/posts/posts"><a>this page!</a></Link>
         </h1>
